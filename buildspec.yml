@@ -1,12 +1,10 @@
-version: 0.2
-
-phases:
-  install:
-    commands:
-      - echo Installing Node.js
-      - npm install
-
-  build:
-    commands:
-      - echo Build started on `date`
-      - npm test
+version:0.2
+ phases:
+ install:
+ commands:-echoInstallingzip...-sudoaptupdate-y #Updatepackagelist-sudoaptinstall-yzip #Installziputility
+ build:
+ commands:-echoBuildstartedon`date`-echoZippingfiles...-zip-rhello-world-app.zipindex.html
+ post_build:
+commands:-echoBuildcompletedon`date`
+ artifacts:
+ files:-hello-world-app.zip
